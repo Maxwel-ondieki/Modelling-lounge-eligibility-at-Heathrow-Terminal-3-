@@ -11,3 +11,6 @@ That’s where you come in. Your job is to create a lookup table that BA can use
 To do this well, you’ll need to think critically about how to group flights in a meaningful way—by time of day, route type, or regional destination, for example, and apply logical assumptions to estimate how many travelers fall into each lounge tier. These estimates will help the Airport Planning team better understand where lounge investments may be needed as operations evolve.
 
 In short, your table and justification will help translate data into decisions—and ensure BA continues to deliver a seamless experience for its most valued customers.
+
+#EXPOLATORY DATA ANALYSIS
+For my project I will use google Collab for python analysis.
