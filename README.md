@@ -14,3 +14,13 @@ In short, your table and justification will help translate data into decisionsâ€
 
 #EXPOLATORY DATA ANALYSIS
 For my project I will use google Collab for python analysis.
+
+summer_df = pd.read_excel(
+    summer_file,
+    sheet_name='british_airways_schedule_summer'
+)
+
+summer_df.head()
+# resulsts
+
+
