@@ -21,6 +21,36 @@ summer_df = pd.read_excel(
 )
 
 summer_df.head()
-# resulsts
 
+# results
+ Number of rows: 10000
+Number of columns: 17
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 17 columns):
+ #   Column                Non-Null Count  Dtype         
+---  ------                --------------  -----         
+ 0   FLIGHT_DATE           10000 non-null  datetime64[ns]
+ 1   FLIGHT_TIME           10000 non-null  object        
+ 2   TIME_OF_DAY           10000 non-null  object        
+ 3   AIRLINE_CD            10000 non-null  object        
+ 4   FLIGHT_NO             10000 non-null  object        
+ 5   DEPARTURE_STATION_CD  10000 non-null  object        
+ 6   ARRIVAL_STATION_CD    10000 non-null  object        
+ 7   ARRIVAL_COUNTRY       10000 non-null  object        
+ 8   ARRIVAL_REGION        10000 non-null  object        
+ 9   HAUL                  10000 non-null  object        
+ 10  AIRCRAFT_TYPE         10000 non-null  object        
+ 11  FIRST_CLASS_SEATS     10000 non-null  int64         
+ 12  BUSINESS_CLASS_SEATS  10000 non-null  int64         
+ 13  ECONOMY_SEATS         10000 non-null  int64         
+ 14  TIER1_ELIGIBLE_PAX    10000 non-null  int64         
+ 15  TIER2_ELIGIBLE_PAX    10000 non-null  int64         
+ 16  TIER3_ELIGIBLE_PAX    10000 non-null  int64         
+dtypes: datetime64[ns](1), int64(6), object(10)
+memory usage: 1.3+ MB
 
+  
+    
+
+    
